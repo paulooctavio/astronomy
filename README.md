@@ -14,10 +14,12 @@ Simulation of a dynamical system of particles under the influence of gravitation
 
 ## [Star Detection](https://github.com/paulooctavio/astronomy/tree/main/Star_Detection)
 
-Image processing project utilizing Hough transforms and connected components analysis to detect stars in images.
+Image processing project utilizing connected components and Hough transforms analysis to detect stars in images.
 
 <p align = "center">
-<img src="https://github.com/paulooctavio/astronomy/blob/main/Star_Detection/results/results_comparisson.png?raw=true" width="600"/>
+<img src="https://github.com/paulooctavio/astronomy/blob/main/Star_Detection/data/stars.JPG?raw=true" width="400"/>
+<img src="https://github.com/paulooctavio/astronomy/blob/main/Star_Detection/results/connected_component_star_detection.png?raw=true" width="400"/>
+<img src="https://github.com/paulooctavio/astronomy/blob/main/Star_Detection/results/hough_transform_star_detection.png?raw=true" width="400"/>
 </p>
 <p align = "center">
 
