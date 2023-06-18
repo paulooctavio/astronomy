@@ -2,7 +2,7 @@
 
 Repository containing code for astronomy projects.
 
-## [N-body Simulation using VPython](https://github.com/paulooctavio/astronomy/tree/main/N-body_Simulation)
+## [N-body Simulation using VPython](https://github.com/paulooctavio/astronomy/tree/main/N-body_Simulation.ipynb)
 
 Simulation of a dynamical system of particles under the influence of gravitational forces using the VPython library.
 
@@ -12,7 +12,7 @@ Simulation of a dynamical system of particles under the influence of gravitation
 <p align = "center">
 
 
-## [Star Detection](https://github.com/paulooctavio/astronomy/tree/main/Star_Detection)
+## [Star Detection](https://github.com/paulooctavio/astronomy/tree/main/Star_Detection.ipynb)
 
 Image processing project utilizing connected components and Hough transforms analysis to detect stars in images.
 
@@ -22,7 +22,7 @@ Image processing project utilizing connected components and Hough transforms ana
 </p>
 <p align = "center">
 
-## [Image Alignment](https://github.com/paulooctavio/astronomy/tree/main/Image_Alignment)
+## [Image Alignment](https://github.com/paulooctavio/astronomy/tree/main/Image_Alignment.ipynb)
 
 Image processing project utilizing Iterative Closest Points (ICP) to align images.
 
