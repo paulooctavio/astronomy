@@ -22,3 +22,13 @@ Image processing project utilizing connected components and Hough transforms ana
 </p>
 <p align = "center">
 
+## [Image Alignment](https://github.com/paulooctavio/astronomy/tree/main/Image_Alignment)
+
+Image processing project utilizing Iterative Closest Points (ICP) to align images.
+
+<p align = "center">
+<img src="https://github.com/paulooctavio/astronomy/blob/main/images/iterative_closest_point_iter_1.png?raw=true" width="49%"/>
+<img src="https://github.com/paulooctavio/astronomy/blob/main/images/iterative_closest_point_iter_6.png?raw=true" width="49%"/>
+</p>
+<p align = "center">
+
