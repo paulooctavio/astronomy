@@ -22,9 +22,9 @@ Image processing project that employs connected components and Hough transforms 
 </p>
 <p align = "center">
 
-## [Image Aligment](https://github.com/paulooctavio/astronomy/tree/main/Image_Aligment.ipynb)
+## [Image Alignment](https://github.com/paulooctavio/astronomy/tree/main/Image_Alignment.ipynb)
 
-Image processing project that utilizes the Iterative Closest Points (ICP) algorithm to perform image alignment.
+Image processing project utilizing Iterative Closest Points (ICP) to align images.
 
 <p align = "center">
 <img src="https://github.com/paulooctavio/astronomy/blob/main/images/iterative_closest_point_iter_1.png?raw=true" width="49%"/>
