@@ -22,9 +22,9 @@ Image processing project that employs connected components and Hough transforms 
 </p>
 <p align = "center">
 
-## [Image Stacking](https://github.com/paulooctavio/astronomy/tree/main/Image_Stacking.ipynb)
+## [Image Registration](https://github.com/paulooctavio/astronomy/tree/main/Image_Stacking.ipynb)
 
- image processing project that utilizes the Iterative Closest Points (ICP) algorithm to perform image alignment. It further applies stacking to combine the aligned images, enabling the comparison of various stacking modes.
+Image processing project that utilizes the Iterative Closest Points (ICP) algorithm to perform image registration.
 
 <p align = "center">
 <img src="https://github.com/paulooctavio/astronomy/blob/main/images/iterative_closest_point_iter_1.png?raw=true" width="49%"/>
@@ -34,7 +34,7 @@ Image processing project that employs connected components and Hough transforms 
 
 ## [Image Stacking](https://github.com/paulooctavio/astronomy/tree/main/Image_Stacking.ipynb)
 
-Image processing project that applies stacking to combine aligned images, reducing noise and enabling the comparison of various stacking modes.
+Image processing project that applies stacking to combine registered images, reducing noise and enabling the comparison of various stacking modes.
 
 <p align = "center">
 <img src="https://github.com/paulooctavio/astronomy/blob/main/images/stacking_modes.png?raw=true" width="99%"/>
