@@ -41,3 +41,11 @@ Image processing project that applies stacking to combine registered images, red
 </p>
 <p align = "center">
 
+## [Astrophotagraphy Annotation](https://github.com/paulooctavio/astronomy/tree/main/Astrophotography_Annotation.ipynb)
+
+An annotation software designed for astrophotography, leveraging the power of the [Astrometry.net](https://astrometry.net/) plate-solver API. Unlike Astrometry.net, this tool offers enhanced customizations, allowing users to which objects are included or excluded from annotations, customize annotation visuals, adjust font size, and fine-tune label positions.
+
+<p align = "center">
+<img src="https://github.com/paulooctavio/astronomy/blob/main/images/carina_nebula_annotated.png?raw=true" width="99%"/>
+</p>
+<p align = "center">
