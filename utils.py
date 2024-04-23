@@ -173,18 +173,20 @@ def iterative_closest_points(
     return Y, image_Y
 
 
-def plot_side_by_side(images, titles, figsize=(20, 5)):
+def plot_side_by_side(images, titles=None, figsize=(20, 5)):
     size = len(images)
     fig, ax = plt.subplots(1, size, figsize=figsize)
     if size == 1:
         ax.imshow(images[0])
         ax.axis("off")
-        ax.set_title(titles[0])
+        if titles:
+            ax.set_title(titles[0])
     else:
-        for i, (img, title) in enumerate(zip(images, titles)):
+        for i, img in enumerate(images):
             if img.dtype == 'uint16':
                 img = normalize_image(img)
             ax[i].imshow(img)
             ax[i].axis("off")
-            ax[i].set_title(title)
+            if titles:
+                ax[i].set_title(titles[i])
     plt.subplots_adjust(wspace=0.01, hspace=0.01)
