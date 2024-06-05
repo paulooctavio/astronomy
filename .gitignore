@@ -1,4 +1,5 @@
 /.ipynb_checkpoints
-data/
+local_data/
 __pycache__/
 config.json
+.venv
