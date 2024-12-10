@@ -13,6 +13,30 @@ def crop_image(image, top, bottom, left, rigth):
     return image[top:bottom, left:rigth]
 
 
+def plot_image(ax, img, title, is_gray=False):
+    """Helper function to plot images"""
+    ax.imshow(img, cmap='gray' if is_gray else None)
+    ax.set_title(title)
+    ax.axis('off')
+
+
+def plot_histogram(ax, img, title, is_color=True):
+    """Helper function to plot histograms"""
+    if is_color:
+        colors = ('r', 'g', 'b')
+        for i, color in enumerate(colors):
+            hist = cv2.calcHist([img], [i], None, [256], [0, 256])
+            ax.bar(range(256), hist.ravel(), alpha=0.3, color=color, label=color.upper())
+        ax.legend()
+    else:
+        hist = cv2.calcHist([img], [0], None, [256], [0, 256])
+        ax.bar(range(256), hist.ravel(), color='gray')
+    
+    ax.set_title(title)
+    ax.set_xlabel('Pixel Intensity')
+    ax.set_ylabel('Count')
+
+
 def plot_all(img_fixed, img_moving, pts_fixed, pts_moving, plot_name):
     fig = plt.figure(figsize=(7, 7))
     ax = plt.gca()
